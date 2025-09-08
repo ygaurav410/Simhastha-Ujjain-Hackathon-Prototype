@@ -313,27 +313,35 @@ export const CivilianDashboard: React.FC = () => {
                 <h3 className="text-lg font-semibold text-gray-900">Quick Actions</h3>
               </CardHeader>
               <CardContent className="space-y-3">
-                <Button variant="danger" className="w-full">
+                <Button 
+                  variant="danger" 
+                  className="w-full"
+                  onClick={handleEmergencyCall}
+                >
                   <Phone className="h-4 w-4 mr-2" />
                   Emergency Call
                 </Button>
                 <Button 
                   variant="warning" 
                   className="w-full"
-                  onClick={handleFindAmenities}
                   onClick={handleReportEmergency}
-                  onClick={handleEmergencyCall}
-                  onClick={() => setShowEmergencyForm(true)}
                 >
                   <AlertTriangle className="h-4 w-4 mr-2" />
                   Report Emergency
                 </Button>
-                <Button variant="primary" className="w-full">
+                <Button 
+                  variant="primary" 
+                  className="w-full"
+                  onClick={handleFindAmenities}
+                >
                   <MapPin className="h-4 w-4 mr-2" />
                   Find Amenities
                 </Button>
+                <Button 
+                  variant="secondary" 
+                  className="w-full"
                   onClick={handleGetDirections}
-                <Button variant="secondary" className="w-full">
+                >
                   <Navigation className="h-4 w-4 mr-2" />
                   Get Directions
                 </Button>
@@ -489,6 +497,7 @@ export const CivilianDashboard: React.FC = () => {
           </CardContent>
         </Card>
       )}
+
       {/* Emergency Post Form Modal */}
       {showEmergencyForm && (
         <EmergencyPostForm
