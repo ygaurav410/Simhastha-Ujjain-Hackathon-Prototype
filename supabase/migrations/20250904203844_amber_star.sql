@@ -24,7 +24,7 @@ INSERT INTO users (user_id, username, email, phone, password_hash, full_name, ro
 -- Authorities
 ('550e8400-e29b-41d4-a716-446655440020', 'inspector_kumar', 'inspector.kumar@up.police.gov.in', '+915322509999', '$2b$12$LQv3c1yqBwLFaAK4Q7L.iOmeuki.9VkmtzmJW6QJgs4CV4Dlfm1qm', 'Inspector Rajesh Kumar', 'authority', 'active', '+915322509998', 'hi'),
 ('550e8400-e29b-41d4-a716-446655440021', 'dr_sharma', 'dr.sharma@kumbh.health.gov.in', '+915322507777', '$2b$12$LQv3c1yqBwLFaAK4Q7L.iOmeuki.9VkmtzmJW6QJgs4CV4Dlfm1qm', 'Dr. Anjali Sharma', 'authority', 'active', '+915322507776', 'en'),
-('550e8400-e29b-41d4-a716-446655440022', 'fire_chief', 'chief@prayagraj.fire.gov.in', '+915322506666', '$2b$12$LQv3c1yqBwLFaAK4Q7L.iOmeuki.9VkmtzmJW6QJgs4CV4Dlfm1qm', 'Fire Chief Suresh Singh', 'authority', 'active', '+915322506665', 'hi'),
+('550e8400-e29b-41d4-a716-446655440022', 'fire_chief', 'chief@Ujjain.fire.gov.in', '+915322506666', '$2b$12$LQv3c1yqBwLFaAK4Q7L.iOmeuki.9VkmtzmJW6QJgs4CV4Dlfm1qm', 'Fire Chief Suresh Singh', 'authority', 'active', '+915322506665', 'hi'),
 
 -- Responders
 ('550e8400-e29b-41d4-a716-446655440030', 'paramedic_raj', 'raj.paramedic@kumbh.health.gov.in', '+915322508888', '$2b$12$LQv3c1yqBwLFaAK4Q7L.iOmeuki.9VkmtzmJW6QJgs4CV4Dlfm1qm', 'Raj Paramedic', 'responder', 'active', '+915322508887', 'hi'),
@@ -37,7 +37,7 @@ INSERT INTO users (user_id, username, email, phone, password_hash, full_name, ro
 INSERT INTO authority_profiles (profile_id, user_id, department, designation, jurisdiction_area, authority_level, badge_number) VALUES
 ('650e8400-e29b-41d4-a716-446655440020', '550e8400-e29b-41d4-a716-446655440020', 'Uttar Pradesh Police', 'Inspector', 'Kumbh Mela Area - Sector 1-15', 3, 'UP-PRJ-001'),
 ('650e8400-e29b-41d4-a716-446655440021', '550e8400-e29b-41d4-a716-446655440021', 'Health Department', 'Chief Medical Officer', 'Kumbh Mela Medical Services', 4, 'HEALTH-KM-001'),
-('650e8400-e29b-41d4-a716-446655440022', '550e8400-e29b-41d4-a716-446655440022', 'Fire Department', 'Fire Chief', 'Prayagraj Fire Services', 4, 'FIRE-PRJ-001');
+('650e8400-e29b-41d4-a716-446655440022', '550e8400-e29b-41d4-a716-446655440022', 'Fire Department', 'Fire Chief', 'Ujjain Fire Services', 4, 'FIRE-PRJ-001');
 
 -- =====================================================
 -- 3. LOCATIONS
@@ -45,14 +45,14 @@ INSERT INTO authority_profiles (profile_id, user_id, department, designation, ju
 
 INSERT INTO locations (location_id, name, type, latitude, longitude, address, city, state, country, landmark_description, is_verified) VALUES
 -- Key Kumbh Mela locations
-('750e8400-e29b-41d4-a716-446655440001', 'Sangam Ghat', 'landmark', 25.4470, 81.8420, 'Sangam Ghat, Triveni Sangam', 'Prayagraj', 'Uttar Pradesh', 'India', 'Holy confluence of three rivers - Ganga, Yamuna, and Saraswati', true),
-('750e8400-e29b-41d4-a716-446655440002', 'Main Parade Ground', 'area', 25.4358, 81.8463, 'Main Parade Ground, Kumbh Mela Area', 'Prayagraj', 'Uttar Pradesh', 'India', 'Central gathering area for major events', true),
-('750e8400-e29b-41d4-a716-446655440003', 'Sector 12 Main Gate', 'point', 25.4280, 81.8430, 'Sector 12, Main Gate, Kumbh Mela', 'Prayagraj', 'Uttar Pradesh', 'India', 'Primary entry point for Sector 12', true),
-('750e8400-e29b-41d4-a716-446655440004', 'Emergency Medical Center', 'point', 25.4400, 81.8400, 'Emergency Medical Center, Sector 8', 'Prayagraj', 'Uttar Pradesh', 'India', '24/7 Emergency medical facility', true),
-('750e8400-e29b-41d4-a716-446655440005', 'Police Control Room', 'point', 25.4390, 81.8410, 'Police Control Room, Sector 9', 'Prayagraj', 'Uttar Pradesh', 'India', 'Central police coordination center', true),
-('750e8400-e29b-41d4-a716-446655440006', 'Fire Station Alpha', 'point', 25.4320, 81.8380, 'Fire Station Alpha, Sector 14', 'Prayagraj', 'Uttar Pradesh', 'India', 'Primary fire response station', true),
-('750e8400-e29b-41d4-a716-446655440007', 'Parking Area C', 'area', 25.4250, 81.8350, 'Parking Area C, Sector 15', 'Prayagraj', 'Uttar Pradesh', 'India', 'Large vehicle parking area', true),
-('750e8400-e29b-41d4-a716-446655440008', 'Food Court Central', 'point', 25.4380, 81.8440, 'Central Food Court, Sector 10', 'Prayagraj', 'Uttar Pradesh', 'India', 'Main food and refreshment area', true);
+('750e8400-e29b-41d4-a716-446655440001', 'Sangam Ghat', 'landmark', 25.4470, 81.8420, 'Sangam Ghat, Triveni Sangam', 'Ujjain', 'Uttar Pradesh', 'India', 'Holy confluence of three rivers - Ganga, Yamuna, and Saraswati', true),
+('750e8400-e29b-41d4-a716-446655440002', 'Main Parade Ground', 'area', 25.4358, 81.8463, 'Main Parade Ground, Kumbh Mela Area', 'Ujjain', 'Uttar Pradesh', 'India', 'Central gathering area for major events', true),
+('750e8400-e29b-41d4-a716-446655440003', 'Sector 12 Main Gate', 'point', 25.4280, 81.8430, 'Sector 12, Main Gate, Kumbh Mela', 'Ujjain', 'Uttar Pradesh', 'India', 'Primary entry point for Sector 12', true),
+('750e8400-e29b-41d4-a716-446655440004', 'Emergency Medical Center', 'point', 25.4400, 81.8400, 'Emergency Medical Center, Sector 8', 'Ujjain', 'Uttar Pradesh', 'India', '24/7 Emergency medical facility', true),
+('750e8400-e29b-41d4-a716-446655440005', 'Police Control Room', 'point', 25.4390, 81.8410, 'Police Control Room, Sector 9', 'Ujjain', 'Uttar Pradesh', 'India', 'Central police coordination center', true),
+('750e8400-e29b-41d4-a716-446655440006', 'Fire Station Alpha', 'point', 25.4320, 81.8380, 'Fire Station Alpha, Sector 14', 'Ujjain', 'Uttar Pradesh', 'India', 'Primary fire response station', true),
+('750e8400-e29b-41d4-a716-446655440007', 'Parking Area C', 'area', 25.4250, 81.8350, 'Parking Area C, Sector 15', 'Ujjain', 'Uttar Pradesh', 'India', 'Large vehicle parking area', true),
+('750e8400-e29b-41d4-a716-446655440008', 'Food Court Central', 'point', 25.4380, 81.8440, 'Central Food Court, Sector 10', 'Ujjain', 'Uttar Pradesh', 'India', 'Main food and refreshment area', true);
 
 -- =====================================================
 -- 4. RESPONSE TEAMS
@@ -68,7 +68,7 @@ INSERT INTO response_teams (team_id, team_name, team_type, department, contact_n
 ('850e8400-e29b-41d4-a716-446655440004', 'Police Response Unit 2', 'police', 'Uttar Pradesh Police', '+915322509998', 'unit2@up.police.gov.in', '750e8400-e29b-41d4-a716-446655440005', 'deployed', 6, ARRAY['investigation', 'security'], '{"vehicles": 2, "communication_radios": 6}'),
 
 -- Fire teams
-('850e8400-e29b-41d4-a716-446655440005', 'Fire Response Team Alpha', 'fire', 'Fire Department', '+915322506666', 'fire.alpha@prayagraj.fire.gov.in', '750e8400-e29b-41d4-a716-446655440006', 'available', 8, ARRAY['fire_suppression', 'rescue_operations', 'hazmat'], '{"fire_trucks": 2, "rescue_equipment": 1, "breathing_apparatus": 8}'),
+('850e8400-e29b-41d4-a716-446655440005', 'Fire Response Team Alpha', 'fire', 'Fire Department', '+915322506666', 'fire.alpha@Ujjain.fire.gov.in', '750e8400-e29b-41d4-a716-446655440006', 'available', 8, ARRAY['fire_suppression', 'rescue_operations', 'hazmat'], '{"fire_trucks": 2, "rescue_equipment": 1, "breathing_apparatus": 8}'),
 
 -- Rescue teams
 ('850e8400-e29b-41d4-a716-446655440006', 'Search and Rescue Team', 'rescue', 'Disaster Management', '+915322505555', 'rescue@kumbh.disaster.gov.in', '750e8400-e29b-41d4-a716-446655440002', 'available', 10, ARRAY['search_rescue', 'water_rescue', 'technical_rescue'], '{"boats": 3, "diving_equipment": 4, "ropes_harnesses": 20}');

@@ -43,7 +43,7 @@ export const mockAlerts: Alert[] = [
     location: {
       lat: 25.4358,
       lng: 81.8463,
-      address: 'Main Parade Ground, Prayagraj'
+      address: 'Main Parade Ground, Ujjain'
     },
     timestamp: new Date(),
     isActive: true,
@@ -58,7 +58,7 @@ export const mockAlerts: Alert[] = [
     location: {
       lat: 25.4470,
       lng: 81.8420,
-      address: 'Sangam Ghats, Prayagraj'
+      address: 'Sangam Ghats, Ujjain'
     },
     timestamp: new Date(),
     isActive: true,
@@ -84,12 +84,12 @@ export const mockAlerts: Alert[] = [
 export const mockAmenities: Amenity[] = [
   {
     id: '1',
-    name: 'Prayagraj Junction Railway Station',
+    name: 'Ujjain Junction Railway Station',
     type: 'railway_station',
     location: {
       lat: 25.4358,
       lng: 81.8463,
-      address: 'Railway Station Road, Prayagraj'
+      address: 'Railway Station Road, Ujjain'
     },
     isOperational: true,
     capacity: 50000,
@@ -104,7 +104,7 @@ export const mockAmenities: Amenity[] = [
     location: {
       lat: 25.4470,
       lng: 81.8420,
-      address: 'Kumbh Mela Area, Prayagraj'
+      address: 'Kumbh Mela Area, Ujjain'
     },
     isOperational: true,
     capacity: 2000,
@@ -119,7 +119,7 @@ export const mockAmenities: Amenity[] = [
     location: {
       lat: 25.4380,
       lng: 81.8450,
-      address: 'Civil Lines, Prayagraj'
+      address: 'Civil Lines, Ujjain'
     },
     isOperational: true,
     capacity: 200,

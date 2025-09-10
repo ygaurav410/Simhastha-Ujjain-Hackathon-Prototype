@@ -365,7 +365,7 @@ Get locations and points of interest.
         "latitude": 25.4470,
         "longitude": 81.8420,
         "address": "Sangam Ghat, Triveni Sangam",
-        "city": "Prayagraj",
+        "city": "Ujjain",
         "landmark_description": "Holy confluence of three rivers",
         "is_verified": true
       }

@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Header } from './components/layout/Header';
 import { LoginForm } from './components/auth/LoginForm';
 import { CivilianDashboard } from './components/civilian/CivilianDashboard';
 import { AdminDashboard } from './components/admin/AdminDashboard';
 import { User } from './types';
-import { globalState } from './utils/globalState';
 
 function App() {
   const [currentUser, setCurrentUser] = useState<User | null>(null);

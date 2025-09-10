@@ -166,7 +166,7 @@ export const CivilianDashboard: React.FC = () => {
           </div>
           <Badge variant="info" size="md">
             <MapPin className="h-3 w-3 mr-1" />
-            Current: Prayagraj, Kumbh Mela
+            Current: Ujjain, Kumbh Mela
           </Badge>
           {!isOnline && (
             <Badge variant="warning" size="md">
