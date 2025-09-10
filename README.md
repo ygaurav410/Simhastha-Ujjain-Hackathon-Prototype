@@ -122,11 +122,11 @@ For testing purposes, you can use these demo credentials:
 
 ### Emergency Contacts
 
-- **Emergency:** 108
+- **Emergency:** 112
 - **Police:** 100
 - **Fire:** 101
 - **Control Room:** 1077
-- **Medical:** +91-532-2408999
+- **Medical:** 108
 
 ## License
 
