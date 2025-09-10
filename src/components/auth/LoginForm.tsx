@@ -219,7 +219,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {
                 <p className="text-gray-600">Smart Event Navigation</p>
               </div>
             </div>
-            <p className="text-gray-500">Kumbh Mela 2025 - Ujjain</p>
+            <p className="text-gray-500">Kumbh Mela 2028 - Ujjain</p>
           </div>
 
           <Card>
@@ -500,7 +500,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {
               <p className="text-gray-600">Smart Event Navigation</p>
             </div>
           </div>
-          <p className="text-gray-500">Kumbh Mela 2025 - Ujjain</p>
+          <p className="text-gray-500">Kumbh Mela 2028 - Ujjain</p>
         </div>
 
         <Card>

@@ -54,7 +54,7 @@ function App() {
                 Built with AI-powered routing, real-time crowd monitoring, and emergency response systems.
               </p>
               <div className="flex space-x-4 text-sm text-gray-500">
-                <span>Kumbh Mela 2025</span>
+                <span>Kumbh Mela 2028</span>
                 <span>•</span>
                 <span>Powered by IoT & AI</span>
                 <span>•</span>
@@ -88,7 +88,7 @@ function App() {
           <div className="border-t border-gray-200 pt-6 mt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-sm text-gray-500">
-                © 2025 NaviMitra. Built for Kumbh Mela 2025. All rights reserved.
+                © 2028 NaviMitra. Built for Kumbh Mela 2028. All rights reserved.
               </p>
               <div className="flex space-x-6 mt-4 md:mt-0">
                 <a href="#" className="text-sm text-gray-500 hover:text-gray-700">Privacy Policy</a>
