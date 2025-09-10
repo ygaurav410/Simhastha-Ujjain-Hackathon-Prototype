@@ -109,7 +109,7 @@ The NaviMitra platform has significant potential for expansion and enhancement:
    npm run dev
    ```
 
-4. Open your browser and navigate to `[http://localhost:5173]`
+4. Open your browser and navigate to `[http://localhost:5173]` or change to your preferred port (if port not available).
 
 ### Demo Credentials
 
