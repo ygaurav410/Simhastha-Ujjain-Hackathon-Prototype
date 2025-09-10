@@ -79,7 +79,7 @@ The NaviMitra platform has significant potential for expansion and enhancement:
 *   **Gamification & Incentives:** Implement features to encourage civilian participation in reporting and community safety, such as points or badges for verified contributions.
 *   **Post-Event Analytics:** Develop comprehensive tools for analyzing event data to generate insights for future event planning and disaster preparedness.
 
-## Getting Started
+# Getting Started
 
 ### Prerequisites
 
