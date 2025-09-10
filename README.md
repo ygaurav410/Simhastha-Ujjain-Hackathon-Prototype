@@ -86,6 +86,11 @@ The NaviMitra platform has significant potential for expansion and enhancement:
 - Node.js (v18 or higher)
 - npm or yarn package manager
 
+### For online and easy access
+
+- Open your browser and navigate to `https://stackblitz.com/~/github.com/ygaurav410/Simhastha-Ujjain-Hackathon-Prototype`
+- On the right side of the screen, a panel with a running prototype will automatically start, providing easier access to the codebase and an editor. You can navigate through the app from there, or you can open it in a new tab for better viewing via a button in the top right corner.
+
 ### Installation
 
 1. Clone the repository:
@@ -104,8 +109,7 @@ The NaviMitra platform has significant potential for expansion and enhancement:
    npm run dev
    ```
 
-4. Open your browser and navigate to `https://stackblitz.com/~/github.com/ygaurav410/Simhastha-Ujjain-Hackathon-Prototype`
-   On the right side of the screen, a panel with a running prototype will automatically start, providing easier access to the codebase and an editor. You can navigate through the app from there, or you can open it in a new tab for better viewing via a button in the top right corner.
+4. Open your browser and navigate to `[http://localhost:5173]`
 
 ### Demo Credentials
 
